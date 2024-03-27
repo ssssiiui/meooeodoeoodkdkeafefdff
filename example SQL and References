@@ -1,0 +1,104 @@
+########### INIT DB
+.\sqlite-tools-win-x64-3450200\sqlite3.exe alarms.db 'CREATE TABLE IF NOT EXISTS history_in (alarm_id INTEGER NOT NULL,device_name TEXT NOT NULL,"path" TEXT NOT NULL,description TEXT NOT NULL,incident_datetime TEXT NOT NULL,cleared_datetime INTEGER,notes TEXT,ack TEXT NOT NULL,severity TEXT NOT NULL,rules TEXT,c2ticket TEXT,ignore_datetime TEXT,ignore_until TEXT,ignore_by INTEGER,CONSTRAINT Input_Table_PK PRIMARY KEY (alarm_id));'
+.\sqlite-tools-win-x64-3450200\sqlite3.exe alarms.db 'CREATE TABLE IF NOT EXISTS active_in (alarm_id INTEGER NOT NULL,device_name TEXT NOT NULL,"path" TEXT NOT NULL,description TEXT NOT NULL,notes TEXT,ack TEXT NOT NULL,severity TEXT NOT NULL,rules TEXT, incident_datetime TEXT NOT NULL,c2ticket TEXT,ignore_datetime TEXT, ignore_until TEXT,reason TEXT,ignore_by INTEGER,CONSTRAINT Input_Table_PK PRIMARY KEY (alarm_id));'
+
+
+
+########### IMPORT ALARM HISTROY
+.\sqlite-tools-win-x64-3450200\sqlite3.exe alarms.db '.import --csv --skip 1  alarms-history-out.csv history_in'
+.\sqlite-tools-win-x64-3450200\sqlite3.exe alarms.db '.import --csv --skip 1  alarms-active-out.csv active_in'
+
+
+
+########### Alarm History Type Counts Grouped by site
+SELECT
+	COUNT(description) AS 'Count',
+	path,
+	incident_datetime,
+	cleared_datetime,
+	description AS 'Description'
+FROM history_in
+WHERE [Location] = 'Desoto Beach Club'
+AND incident_datetime > '2022-09-11 00:00'
+GROUP BY description
+ORDER BY [Location] ASC;
+
+
+########### Active Alarm Type Counts Grouped by site
+SELECT
+	COUNT(description) AS 'Count',
+	path AS [Location],
+	incident_datetime,
+	description AS [Description]
+FROM active_in
+GROUP BY description
+ORDER BY [Location] ASC;
+
+
+########### number of tickets (alerts) per week, broken down by site and severity, when the issue occurred, and when it was resolved. 
+
+SELECT
+	path as [Location],
+        severity AS [Severity],
+	count(description) AS [Count],	
+	ABS(ROUND(AVG(
+	  (unixepoch(cleared_datetime) - unixepoch(incident_datetime)) / 60
+	))) AS [Average Resolution Time Minutes],
+        description AS [Description]
+FROM history_in
+-- WHERE [Location] = 'Desoto Beach Club'
+GROUP BY [Description], [Location]
+ORDER BY [Location] ASC, [Severity] ASC, [Count] DESC, [Average Resolution Time Minutes]  ASC;
+
+
+
+
+########################################################################
+## REFERENCES                                                          #
+########################################################################
+
+###### Active Table
+CREATE TABLE IF NOT EXISTS active_in (
+       alarm_id INTEGER NOT NULL,
+       device_name TEXT NOT NULL,
+       "path" TEXT NOT NULL,
+       description TEXT NOT NULL,
+       notes TEXT,
+       ack TEXT NOT NULL,
+       severity TEXT NOT NULL,
+       rules TEXT,       
+       incident_datetime TEXT NOT NULL,
+       c2ticket TEXT,
+       ignore_datetime TEXT,       
+       ignore_until TEXT,
+       reason TEXT,
+       ignore_by INTEGER,
+       CONSTRAINT Input_Table_PK PRIMARY KEY (alarm_id)
+       );
+# Flattened Version       
+CREATE TABLE IF NOT EXISTS active_in (alarm_id INTEGER NOT NULL,device_name TEXT NOT NULL,"path" TEXT NOT NULL,description TEXT NOT NULL,notes TEXT,ack TEXT NOT NULL,severity TEXT NOT NULL,rules TEXT, incident_datetime TEXT NOT NULL,c2ticket TEXT,ignore_datetime TEXT, ignore_until TEXT,reason TEXT,ignore_by INTEGER,CONSTRAINT Input_Table_PK PRIMARY KEY (alarm_id));
+
+
+###### HISTORY TABLE
+CREATE TABLE IF NOT EXISTS history_in (
+       alarm_id INTEGER NOT NULL,
+       device_name TEXT NOT NULL,
+       "path" TEXT NOT NULL,
+       description TEXT NOT NULL,
+       incident_datetime TEXT NOT NULL,
+       cleared_datetime INTEGER,
+       notes TEXT,
+       ack TEXT NOT NULL,
+       severity TEXT NOT NULL,
+       rules TEXT,
+       c2ticket TEXT,
+       ignore_datetime TEXT,
+       ignore_until TEXT,
+       ignore_by INTEGER,
+       CONSTRAINT Input_Table_PK PRIMARY KEY (alarm_id)
+       );
+# flattend version
+CREATE TABLE IF NOT EXISTS history_in (alarm_id INTEGER NOT NULL,device_name TEXT NOT NULL,"path" TEXT NOT NULL,description TEXT NOT NULL,incident_datetime TEXT NOT NULL,cleared_datetime INTEGER,notes TEXT,ack TEXT NOT NULL,severity TEXT NOT NULL,rules TEXT,c2ticket TEXT,ignore_datetime TEXT,ignore_until TEXT,ignore_by INTEGER,CONSTRAINT Input_Table_PK PRIMARY KEY (alarm_id));
+
+
+

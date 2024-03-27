@@ -1,0 +1,102 @@
+ID,Device Name,Path,Description,Notes,ACK,Severity,Rules,Incident Time,Ticket,Date Ignored,Ignore Until,Reason,Ignored By
+47507,eFemto 2100,All Clients >> Source1Solutions >> BestBuy >> Maple Suites >> Digi Modem >> eFemto 2100,The RF antennas may not be properly connected or may be faulty.,"RU VSWR_FAIL/PATH[1] 
+ 10",Not Acknowledged,Major,Ignored,2/15/2024 14:25,,1/14/2022 4:55,Indefinitely,Will look at,"Welker, Daren "
+47274,SDR-33-AF,All Clients >> Source1Solutions >> BestBuy >> Nouveau Marc >> Digi Modem >> BDA 2100 >> SDR-33-AF,Signal Not Det,,Not Acknowledged,Critical,,1/31/2024 14:42,,,,,
+47275,SDR-33-AF,All Clients >> Source1Solutions >> BestBuy >> Nouveau Marc >> Digi Modem >> BDA 2100 >> SDR-33-AF,Signal Low,,Not Acknowledged,Critical,,1/31/2024 14:42,,,,,
+47270,Digi Modem,All Clients >> Source1Solutions >> BestBuy >> Yardley Commons (Seaton Voorhees) >> Digi Modem,Communication Failure. Device is OFFLINE or SNMP may not be enabled.,,Not Acknowledged,Critical,,1/31/2024 13:50,,,,,
+47268,eFemto 2100,All Clients >> Source1Solutions >> BestBuy >> Desoto Beach Club >> Digi Modem >> eFemto 2100,The 4G LTE Network Extender 2 for Enterprise has lost connectivity with the IPsec Server and is not in service. ,,Not Acknowledged,Major,,1/31/2024 13:46,,,,,
+47269,eFemto 2100,All Clients >> Source1Solutions >> BestBuy >> Desoto Beach Club >> Digi Modem >> eFemto 2100,The 4G LTE Network Extender 2 for Enterprise is not in service due to poor or inadequate GPS signals.,,Not Acknowledged,Major,,1/31/2024 13:46,,,,,
+47266,eFemto 700,All Clients >> Source1Solutions >> BestBuy >> Yardley Commons (Seaton Voorhees) >> Digi Modem >> eFemto 700,Scan Incomplete,Could not collect enough data to finish the scan.,Not Acknowledged,Critical,,1/31/2024 13:40,,,,,
+47264,eFemto 2100,All Clients >> Source1Solutions >> BestBuy >> Yardley Commons (Seaton Voorhees) >> Digi Modem >> eFemto 2100,Scan Incomplete,Could not collect enough data to finish the scan.,Not Acknowledged,Critical,,1/31/2024 13:40,,,,,
+47254,eFemto 2100,All Clients >> Source1Solutions >> BestBuy >> Nouveau Marc >> Digi Modem >> eFemto 2100,The 4G LTE Network Extender 2 for Enterprise is not in service due to poor or inadequate GPS signals.,,Not Acknowledged,Major,,1/31/2024 12:59,,,,,
+47253,eFemto 2100,All Clients >> Source1Solutions >> BestBuy >> Nouveau Marc >> Digi Modem >> eFemto 2100,The 4G LTE Network Extender 2 for Enterprise has lost connectivity with the IPsec Server and is not in service. ,,Not Acknowledged,Major,,1/31/2024 12:59,,,,,
+47251,SDR-33-AF,All Clients >> Source1Solutions >> BestBuy >> Desoto Beach Club >> Digi Modem >> BDA 2100 >> SDR-33-AF,Signal Not Det,,Not Acknowledged,Critical,,1/31/2024 12:48,,,,,
+47252,SDR-33-AF,All Clients >> Source1Solutions >> BestBuy >> Desoto Beach Club >> Digi Modem >> BDA 2100 >> SDR-33-AF,Signal Low,,Not Acknowledged,Critical,,1/31/2024 12:48,,,,,
+47228,SDR-33-AF,All Clients >> Source1Solutions >> BestBuy >> RiverPlace >> Digi Modem >> BDA 2100 >> SDR-33-AF,Signal Not Det,,Not Acknowledged,Critical,,1/31/2024 9:40,,,,,
+47229,SDR-33-AF,All Clients >> Source1Solutions >> BestBuy >> RiverPlace >> Digi Modem >> BDA 2100 >> SDR-33-AF,Signal Low,,Not Acknowledged,Critical,,1/31/2024 9:40,,,,,
+47224,SDR-33-AF,All Clients >> Source1Solutions >> BestBuy >> Yardley Commons (Seaton Voorhees) >> Digi Modem >> BDA 2100 >> SDR-33-AF,Signal Not Det,,Not Acknowledged,Critical,,1/31/2024 8:51,,,,,
+47225,SDR-33-AF,All Clients >> Source1Solutions >> BestBuy >> Yardley Commons (Seaton Voorhees) >> Digi Modem >> BDA 2100 >> SDR-33-AF,Signal Low,,Not Acknowledged,Critical,,1/31/2024 8:51,,,,,
+47210,eFemto 700,All Clients >> Source1Solutions >> BestBuy >> Solstice at Sandy >> Digi Modem >> eFemto 700,The RF antennas may not be properly connected or may be faulty.,"RU VSWR_FAIL/PATH[1] 
+ 10",Not Acknowledged,Major,Ignored,1/31/2024 6:44,,1/6/2023 11:42,Indefinitely,We be look at on next visit,"Welker, Daren "
+47082,eFemto 2100,All Clients >> Source1Solutions >> BestBuy >> RiverPlace >> Digi Modem >> eFemto 2100,Power used within the board is unstable or abnormal. ,,Not Acknowledged,Major,,1/30/2024 6:36,,,,,
+47065,SDR-33-AF,All Clients >> Source1Solutions >> BestBuy >> Aspen View (Bad 2100 BDA needs replaced) >> Digi Modem >> 2100 BDA (Bad Needs replaced) >> SDR-33-AF,System Halt,,Not Acknowledged,Warning,,1/30/2024 4:19,,,,,
+47066,SDR-33-AF,All Clients >> Source1Solutions >> BestBuy >> Aspen View (Bad 2100 BDA needs replaced) >> Digi Modem >> 2100 BDA (Bad Needs replaced) >> SDR-33-AF,Synthesizer Lock Fail,,Not Acknowledged,Major,,1/30/2024 4:19,,,,,
+47067,SDR-33-AF,All Clients >> Source1Solutions >> BestBuy >> Aspen View (Bad 2100 BDA needs replaced) >> Digi Modem >> 2100 BDA (Bad Needs replaced) >> SDR-33-AF,Signal Not Det,,Not Acknowledged,Critical,,1/30/2024 4:19,,,,,
+47068,SDR-33-AF,All Clients >> Source1Solutions >> BestBuy >> Aspen View (Bad 2100 BDA needs replaced) >> Digi Modem >> 2100 BDA (Bad Needs replaced) >> SDR-33-AF,Signal Low,,Not Acknowledged,Critical,,1/30/2024 4:19,,,,,
+46679,eFemto 2100,All Clients >> Source1Solutions >> BestBuy >> Marion Woods >> Digi Modem >> eFemto 2100,The device could not be reached via HTTP.,,Not Acknowledged,Critical,,1/28/2024 1:20,,,,,
+46680,eFemto 2100,All Clients >> Source1Solutions >> BestBuy >> Marion Woods >> Digi Modem >> eFemto 2100,Scan Incomplete,,Not Acknowledged,Critical,,1/28/2024 1:20,,,,,
+46479,eFemto 700,All Clients >> Source1Solutions >> BestBuy >> Yardley Commons (Seaton Voorhees) >> Digi Modem >> eFemto 700,Service cannot be provided due to abnormal service condition.,"SYS SERVICE_OFF 
+ 30",Not Acknowledged,Major,,1/26/2024 23:52,,,,,
+46480,eFemto 700,All Clients >> Source1Solutions >> BestBuy >> Yardley Commons (Seaton Voorhees) >> Digi Modem >> eFemto 700,GPS signal has been lost for 24 hours.,"GPSR FREQUENCY_HOLDOVER_EXCEED 
+ 17",Not Acknowledged,Major,,1/26/2024 23:52,,,,,
+46239,eFemto 700,All Clients >> Source1Solutions >> BestBuy >> Yardley Commons (Seaton Voorhees) >> Digi Modem >> eFemto 700,No GPS signal can be received.,"GPSR LOCKING_FAIL 
+ 15",Not Acknowledged,Major,,1/25/2024 23:56,,,,,
+45797,eFemto 2100,All Clients >> Source1Solutions >> BestBuy >> Yardley Commons (Seaton Voorhees) >> Digi Modem >> eFemto 2100,Service cannot be provided due to abnormal service condition.,"SYS SERVICE_OFF 
+ 30",Not Acknowledged,Major,,1/24/2024 8:59,,,,,
+45798,eFemto 2100,All Clients >> Source1Solutions >> BestBuy >> Yardley Commons (Seaton Voorhees) >> Digi Modem >> eFemto 2100,GPS signal has been lost for 24 hours.,"GPSR FREQUENCY_HOLDOVER_EXCEED 
+ 17",Not Acknowledged,Major,,1/24/2024 8:59,,,,,
+45499,eFemto 2100,All Clients >> Source1Solutions >> BestBuy >> Yardley Commons (Seaton Voorhees) >> Digi Modem >> eFemto 2100,No GPS signal can be received.,"GPSR LOCKING_FAIL 
+ 15",Not Acknowledged,Major,,1/23/2024 9:05,,,,,
+44043,eFemto 2100 S1,All Clients >> Source1Solutions >> BestBuy >> Hawaii Kai >> Digi Modem >> eFemto 2100 S1,The device could not be reached via HTTP.,,Not Acknowledged,Critical,,1/17/2024 15:39,,,,,
+44044,eFemto 2100 S1,All Clients >> Source1Solutions >> BestBuy >> Hawaii Kai >> Digi Modem >> eFemto 2100 S1,Scan Incomplete,,Not Acknowledged,Critical,,1/17/2024 15:39,,,,,
+44041,JMA Teko DAS,All Clients >> Source1Solutions >> BestBuy >> Hawaii Kai >> Digi Modem >> JMA Teko DAS,The device's telnet settings could not be validated.,,Not Acknowledged,Critical,,1/17/2024 15:35,,,,,
+44039,eFemto 700 S1,All Clients >> Source1Solutions >> BestBuy >> Hawaii Kai >> Digi Modem >> eFemto 700 S1,Scan Incomplete,,Not Acknowledged,Critical,,1/17/2024 15:32,,,,,
+44038,eFemto 700 S1,All Clients >> Source1Solutions >> BestBuy >> Hawaii Kai >> Digi Modem >> eFemto 700 S1,The device could not be reached via HTTP.,,Not Acknowledged,Critical,,1/17/2024 15:32,,,,,
+43118,Digi Modem,All Clients >> Source1Solutions >> BestBuy >> Sunridge >> Digi Modem,Communication Failure. Device is OFFLINE or SNMP may not be enabled.,,Not Acknowledged,Critical,,1/13/2024 19:32,,,,,
+43116,BDA 2100,All Clients >> Source1Solutions >> BestBuy >> Sunridge >> Digi Modem >> BDA 2100,Connection Lost - Unable to Communicate with the device.,,Not Acknowledged,Critical,,1/13/2024 19:19,,,,,
+43115,BDA 700,All Clients >> Source1Solutions >> BestBuy >> Sunridge >> Digi Modem >> BDA 700,Connection Lost - Unable to Communicate with the device.,,Not Acknowledged,Critical,,1/13/2024 19:19,,,,,
+43112,eFemto 2100,All Clients >> Source1Solutions >> BestBuy >> Sunridge >> Digi Modem >> eFemto 2100,The device could not be reached via HTTP.,,Not Acknowledged,Critical,,1/13/2024 19:13,,,,,
+43113,eFemto 2100,All Clients >> Source1Solutions >> BestBuy >> Sunridge >> Digi Modem >> eFemto 2100,Scan Incomplete,,Not Acknowledged,Critical,,1/13/2024 19:13,,,,,
+43110,eFemto 700,All Clients >> Source1Solutions >> BestBuy >> Sunridge >> Digi Modem >> eFemto 700,The device could not be reached via HTTP.,,Not Acknowledged,Critical,,1/13/2024 19:12,,,,,
+43111,eFemto 700,All Clients >> Source1Solutions >> BestBuy >> Sunridge >> Digi Modem >> eFemto 700,Scan Incomplete,,Not Acknowledged,Critical,,1/13/2024 19:12,,,,,
+37572,eFemto 700 (Bad Efemto) need replaced,All Clients >> Source1Solutions >> BestBuy >> Sky Peaks (need to replace eFemto 700) >> Digi Modem >> eFemto 700 (Bad Efemto) need replaced,The device could not be reached via HTTP.,,Not Acknowledged,Critical,,12/14/2023 5:40,,,,,
+37573,eFemto 700 (Bad Efemto) need replaced,All Clients >> Source1Solutions >> BestBuy >> Sky Peaks (need to replace eFemto 700) >> Digi Modem >> eFemto 700 (Bad Efemto) need replaced,Scan Incomplete,,Not Acknowledged,Critical,,12/14/2023 5:40,,,,,
+36562,eFemto 2100,All Clients >> Source1Solutions >> BestBuy >> Redwood Retirement Residence >> Digi Modem >> eFemto 2100,The feeding current to the antenna side is open/short or the antenna cable is dismounted.,"GPSR ANTENNA_FAIL 
+ 14
+This alarm was ignored by user: Daren  Welker on Thu Dec 07 2023 08:59:51 PM 
+
+Reason For Ignore:
+Need a new cable on the GPS
+
+Duration: 3056 days 11:50 hours",Not Acknowledged,Major,Ignored,12/7/2023 20:59,,1/19/2022 11:02,Indefinitely,Need a new cable on the GPS,"Welker, Daren "
+36387,Digi Modem,All Clients >> Source1Solutions >> BestBuy >> Birch Heights >> Digi Modem,Communication Failure. Device is OFFLINE or SNMP may not be enabled.,,Not Acknowledged,Critical,,12/6/2023 12:27,,,,,
+35411,eFemto 700,All Clients >> Source1Solutions >> BestBuy >> Mistywood >> Digi Modem >> eFemto 700,The device could not be reached via HTTP.,,Not Acknowledged,Critical,,11/28/2023 17:50,,,,,
+35412,eFemto 700,All Clients >> Source1Solutions >> BestBuy >> Mistywood >> Digi Modem >> eFemto 700,Scan Incomplete,,Not Acknowledged,Critical,,11/28/2023 17:50,,,,,
+35409,BDA 2100,All Clients >> Source1Solutions >> BestBuy >> Mistywood >> Digi Modem >> BDA 2100,Connection Lost - Unable to Communicate with the device.,,Not Acknowledged,Critical,,11/28/2023 16:30,,,,,
+35407,eFemto 2100,All Clients >> Source1Solutions >> BestBuy >> Mistywood >> Digi Modem >> eFemto 2100,The device could not be reached via HTTP.,,Not Acknowledged,Critical,,11/28/2023 16:17,,,,,
+35408,eFemto 2100,All Clients >> Source1Solutions >> BestBuy >> Mistywood >> Digi Modem >> eFemto 2100,Scan Incomplete,,Not Acknowledged,Critical,,11/28/2023 16:17,,,,,
+33693,eFemto 700 (Bad Efemto) need replaced,All Clients >> Source1Solutions >> BestBuy >> Sky Peaks (need to replace eFemto 700) >> Digi Modem >> eFemto 700 (Bad Efemto) need replaced,The device's HTTP settings could not be validated.,,Not Acknowledged,Critical,,11/9/2023 22:53,,,,,
+31745,eFemto 700,All Clients >> Source1Solutions >> BestBuy >> Bluewater Lodge >> Digi Modem >> eFemto 700,The device could not be reached via HTTP.,,Not Acknowledged,Critical,,11/2/2023 23:08,,,,,
+31746,eFemto 700,All Clients >> Source1Solutions >> BestBuy >> Bluewater Lodge >> Digi Modem >> eFemto 700,Scan Incomplete,,Not Acknowledged,Critical,,11/2/2023 23:08,,,,,
+30547,BDA 700,All Clients >> Source1Solutions >> BestBuy >> Marion Woods >> Digi Modem >> BDA 700,Connection Lost - Unable to Communicate with the device.,,Not Acknowledged,Critical,,8/19/2023 5:40,,,,,
+30027,BDA 700,All Clients >> Source1Solutions >> BestBuy >> Birch Heights >> Digi Modem >> BDA 700,Connection Lost - Unable to Communicate with the device.,,Not Acknowledged,Critical,,6/16/2023 19:04,,,,,
+30018,eFemto 2100,All Clients >> Source1Solutions >> BestBuy >> Birch Heights >> Digi Modem >> eFemto 2100,Scan Incomplete,,Not Acknowledged,Critical,,6/16/2023 11:15,,,,,
+30017,eFemto 2100,All Clients >> Source1Solutions >> BestBuy >> Birch Heights >> Digi Modem >> eFemto 2100,The device could not be reached via HTTP.,,Not Acknowledged,Critical,,6/16/2023 11:15,,,,,
+30014,BDA 2100,All Clients >> Source1Solutions >> BestBuy >> Marion Woods >> Digi Modem >> BDA 2100,Connection Lost - Unable to Communicate with the device.,,Not Acknowledged,Critical,,6/16/2023 7:29,,,,,
+30013,BDA 2100,All Clients >> Source1Solutions >> BestBuy >> Birch Heights >> Digi Modem >> BDA 2100,Connection Lost - Unable to Communicate with the device.,,Not Acknowledged,Critical,,6/16/2023 5:14,,,,,
+29339,SDR-33-AF,All Clients >> Source1Solutions >> BestBuy >> Marion Woods >> Digi Modem >> BDA 2100 >> SDR-33-AF,System Halt,,Not Acknowledged,Warning,,3/18/2023 23:17,,,,,
+29315,SDR-33-AF,All Clients >> Source1Solutions >> BestBuy >> Marion Woods >> Digi Modem >> BDA 2100 >> SDR-33-AF,Synthesizer Lock Fail,,Not Acknowledged,Major,,3/14/2023 16:42,,,,,
+28737,BDA 2100,All Clients >> Source1Solutions >> BestBuy >> Bluewater Lodge >> Digi Modem >> BDA 2100,Connection Lost - Unable to Communicate with the device.,,Not Acknowledged,Critical,,12/30/2022 9:04,,,,,
+28697,eFemto 700,All Clients >> Source1Solutions >> BestBuy >> Willow Grove >> Digi Modem >> eFemto 700,The device could not be reached via HTTP.,,Not Acknowledged,Critical,,12/25/2022 12:59,,,,,
+28698,eFemto 700,All Clients >> Source1Solutions >> BestBuy >> Willow Grove >> Digi Modem >> eFemto 700,Scan Incomplete,,Not Acknowledged,Critical,,12/25/2022 12:59,,,,,
+28696,Digi Modem,All Clients >> Source1Solutions >> BestBuy >> Willow Grove >> Digi Modem,Communication Failure. Device is OFFLINE or SNMP may not be enabled.,,Not Acknowledged,Critical,,12/25/2022 12:46,,,,,
+28693,eFemto 2100,All Clients >> Source1Solutions >> BestBuy >> Willow Grove >> Digi Modem >> eFemto 2100,Scan Incomplete,,Not Acknowledged,Critical,,12/25/2022 9:40,,,,,
+28692,eFemto 2100,All Clients >> Source1Solutions >> BestBuy >> Willow Grove >> Digi Modem >> eFemto 2100,The device could not be reached via HTTP.,,Not Acknowledged,Critical,,12/25/2022 9:40,,,,,
+28636,Digi Modem,All Clients >> Source1Solutions >> BestBuy >> Bluewater Lodge >> Digi Modem,Communication Failure. Device is OFFLINE or SNMP may not be enabled.,,Not Acknowledged,Critical,,12/20/2022 21:13,,,,,
+28634,eFemto 2100,All Clients >> Source1Solutions >> BestBuy >> Bluewater Lodge >> Digi Modem >> eFemto 2100,The device could not be reached via HTTP.,,Not Acknowledged,Critical,,12/20/2022 20:10,,,,,
+28635,eFemto 2100,All Clients >> Source1Solutions >> BestBuy >> Bluewater Lodge >> Digi Modem >> eFemto 2100,Scan Incomplete,,Not Acknowledged,Critical,,12/20/2022 20:10,,,,,
+28622,SDR-33-AF,All Clients >> Source1Solutions >> BestBuy >> Marion Woods >> Digi Modem >> BDA 2100 >> SDR-33-AF,Signal Low,,Not Acknowledged,Critical,,12/20/2022 1:50,,,,,
+28621,SDR-33-AF,All Clients >> Source1Solutions >> BestBuy >> Marion Woods >> Digi Modem >> BDA 2100 >> SDR-33-AF,Signal Not Det,,Not Acknowledged,Critical,,12/20/2022 1:50,,,,,
+27938,BDA 700,All Clients >> Source1Solutions >> BestBuy >> Sugar Valley Estates >> Digi Modem >> BDA 700,Connection Lost - Unable to Communicate with the device.,,Not Acknowledged,Critical,,11/16/2022 23:12,,,,,
+27936,eFemto 700,All Clients >> Source1Solutions >> BestBuy >> Sugar Valley Estates >> Digi Modem >> eFemto 700,The device could not be reached via HTTP.,,Not Acknowledged,Critical,,11/16/2022 22:55,,,,,
+27937,eFemto 700,All Clients >> Source1Solutions >> BestBuy >> Sugar Valley Estates >> Digi Modem >> eFemto 700,Scan Incomplete,,Not Acknowledged,Critical,,11/16/2022 22:55,,,,,
+27935,eFemto 2100,All Clients >> Source1Solutions >> BestBuy >> Sugar Valley Estates >> Digi Modem >> eFemto 2100,Scan Incomplete,,Not Acknowledged,Critical,,11/16/2022 22:30,,,,,
+27934,eFemto 2100,All Clients >> Source1Solutions >> BestBuy >> Sugar Valley Estates >> Digi Modem >> eFemto 2100,The device could not be reached via HTTP.,,Not Acknowledged,Critical,,11/16/2022 22:30,,,,,
+27932,BDA 2100,All Clients >> Source1Solutions >> BestBuy >> Sugar Valley Estates >> Digi Modem >> BDA 2100,Connection Lost - Unable to Communicate with the device.,,Not Acknowledged,Critical,,11/16/2022 22:08,,,,,
+22880,Digi Modem,All Clients >> Source1Solutions >> BestBuy >> Walden Place >> Digi Modem,Communication Failure. Device is OFFLINE or SNMP may not be enabled.,,Not Acknowledged,Critical,,8/10/2022 0:45,,,,,
+22877,BDA 700,All Clients >> Source1Solutions >> BestBuy >> Walden Place >> Digi Modem >> BDA 700,Connection Lost - Unable to Communicate with the device.,,Not Acknowledged,Critical,,8/9/2022 23:59,,,,,
+22874,BDA 2100,All Clients >> Source1Solutions >> BestBuy >> Walden Place >> Digi Modem >> BDA 2100,Connection Lost - Unable to Communicate with the device.,,Not Acknowledged,Critical,,8/9/2022 23:48,,,,,
+22872,eFemto 2100,All Clients >> Source1Solutions >> BestBuy >> Walden Place >> Digi Modem >> eFemto 2100,The device could not be reached via HTTP.,,Not Acknowledged,Critical,,8/9/2022 23:46,,,,,
+22873,eFemto 2100,All Clients >> Source1Solutions >> BestBuy >> Walden Place >> Digi Modem >> eFemto 2100,Scan Incomplete,,Not Acknowledged,Critical,,8/9/2022 23:46,,,,,
+22871,eFemto 700,All Clients >> Source1Solutions >> BestBuy >> Walden Place >> Digi Modem >> eFemto 700,Scan Incomplete,,Not Acknowledged,Critical,,8/9/2022 23:41,,,,,
+22870,eFemto 700,All Clients >> Source1Solutions >> BestBuy >> Walden Place >> Digi Modem >> eFemto 700,The device could not be reached via HTTP.,,Not Acknowledged,Critical,,8/9/2022 23:41,,,,,
